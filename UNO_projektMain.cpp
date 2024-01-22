@@ -163,10 +163,12 @@ UNO_projektDialog::UNO_projektDialog(wxWindow* parent,wxWindowID id)
 }
 
 
-
 void UNO_projektDialog::wczytaj(wxString kolor, int numer){
     for (int i=1;i<=12; i++) {
-        wxString nazwa = kolor+"_"; nazwa << i; nazwa = nazwa + ".png";nazwa = "Karty_uno/" + nazwa;
+        wxString nazwa = kolor+"_";
+        nazwa << i;
+        nazwa = nazwa + ".png";
+        nazwa = "Karty_uno/" + nazwa;
         karty[numer + i-1] = wxBitmap(wxImage(nazwa));
     }
 

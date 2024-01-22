@@ -13,6 +13,7 @@ class UNO_gracz
         void Postaw_karte(int n);
         void UNO();
         int Sprawdz_ilosc();
+        bool czyWygrana();
 };
 
 #endif // UNO_GRACZ_H

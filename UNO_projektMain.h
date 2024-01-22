@@ -31,7 +31,7 @@ class UNO_projektDialog: public wxDialog
 
     private:
 
-        //(*Handlers(UNO_projektDialog)
+    //(*Handlers(UNO_projektDialog)
         void OnQuit(wxCommandEvent& event);
         void OnAbout(wxCommandEvent& event);
         void OnButton1Click(wxCommandEvent& event);
